@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height:5rem;
+    line-height: 5rem;/*isse hum wo text ko bhi center mein la sakte hai*/
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{/* aur isko use kiyuki jeise hi uss choices ko touch kiya waise hi effect aye*/
+    background-color: #081b31;
+    cursor: pointer;/*humara cursor change hoke ek hand ajayega taki track kar paye*/
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/* isse hum img streching remove kar sakte hai*/
+    border-radius: 75px;/*50% bhi de sakte hai*/
+
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;/* yeh box ke bich gap dene ke kaam ata hai*/
+    margin-top: 5rem;/* aur yeh upar se space dene ke kam ata hai*/
+
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 4rem;/* yeh bich mein dene ke liye*/
+
+}
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+   
+}
+.msg{
+    
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display:inline; /*yeh jitne part mein content hoga bass utna hi highlight karagea*/
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
